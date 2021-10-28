@@ -10,8 +10,9 @@ const findKeyByValue = function(obj, value) {
   let keys = Object.keys(obj);
   console.log(keys);
   for (let i = 0; i < keys.length; i++){
-    if (obj[keys[i]] = value) {
-      return obj[keys[i]];
+    if (obj[keys[i]] === value) {
+      console.log([keys[i]]);
+      return keys[i];
     } 
     
   }
