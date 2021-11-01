@@ -32,13 +32,13 @@ const map = function(array, callback) {
   return results;
 }
 
-const callback = map(word => word[0]);
-console.log(callback);
 
-
-// const results1 = map(word => word[0]);
-// console.log(results1);
+const results1 = map(words, word => word[0]);
+console.log(results1);
 
 
 
-assertArraysEqual(map(["ground", "control", "to", "major", "tom"], 'to'), 't');
+assertArraysEqual(results1, ['g', 'c', 't', 'm', 't']);
+assertArraysEqual(results1[2], ['t']);
+assertArraysEqual(results1[2], ['c']);
+
