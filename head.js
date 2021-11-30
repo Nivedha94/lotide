@@ -6,3 +6,4 @@ const head = function(sampleArray) {
   
 };
 
+module.exports = head;
