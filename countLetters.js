@@ -20,3 +20,5 @@ const countLetters = function(string) {
 
 const words = "Nivedha";
 assertEqual(countLetters(words));
+
+module.exports = countLetters;

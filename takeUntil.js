@@ -44,6 +44,8 @@ console.log(results2);
 assertArraysEqual(results1, [1,2,5,7,2])
 assertArraysEqual(results2, [1,2,5,7,2])
 
+module.exports = takeUntil;
+
 
 // const takeUntil = (arr, fn) => {
 //   for (const [i, val] of arr.entries()) if (fn(val)) return arr.slice(0, i);

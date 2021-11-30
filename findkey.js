@@ -1,3 +1,5 @@
+const { findkey } = require(".");
+
 const assertEqual = function(actual, expected) {
   if (actual === expected) {
     console.log(`Assertion Passed: ${actual} === ${expected}`);
@@ -31,3 +33,5 @@ const results1 = findKeyByValue(object, x => x.stars === 2);
 console.log(results1);
 
 assertEqual(results1, "Ora");
+
+module.exports = findKey;
